@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #84fab0, #8fd3f4);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #56cfe1;
+        }
+
+        .container {
+            perspective: 1000px;
+            padding: 20px;
+        }
+
+        .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transform: rotateY(0deg);
+            transition: transform 0.6s;
+        }
+
+        .container:hover .content {
+            transform: rotateY(10deg);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            color: #56cfe1;
+            border-bottom: 2px solid #56cfe1;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #56cfe1;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+    </header>
+    <nav>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <section id="personal-info">
+                <h2>Personal Information</h2>
+                <ul>
+                    <li><strong>Name:</strong> VidhyaShree M</li>
+                    <li><strong>Address:</strong> Imdahali</li>
+                    <li><strong>Contact:</strong>0098656728</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <table>
+                    <tr>
+                        <th>Degree</th>
+                        <th>University</th>
+                        <th>Graduation Date</th>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Secondary school leaving certificate</td>
+                        <td>24-01-2020</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>2 PUC</td>
+                        <td>11-05-2022</td>
+                    </tr>
+                    <tr>
+                        <td>engineering</td>
+                        <td>VTU</td>
+                        <td>Expected 22-05-2026</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Software development</li>
+                    <li>Data structures</li>
+                    <li>Algorhythms</li>
+                    <li>Debugging</li>
+                </ul>
+            </section>
+
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                <table>
+                    <tr>
+                        <th>Job Role</th>
+                        <th>Company</th>
+                        <th>Responsibilities</th>
+                        <th>Dates</th>
+                    </tr>
+                    <tr>
+                        <td>Employee</td>
+                        <td>Infosys</td>
+                        <td>Ownership of projects</td>
+                        <td>05-07-2025</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <strong>Project Name:</strong>Mini voting system<br>
+                        <strong>Description:</strong>it tracks votes of people to which community through online and also gives count<br>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
+
+                       
+           
+                  
